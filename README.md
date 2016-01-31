@@ -47,5 +47,5 @@ This framework and steps to use it are designed **ONLY** for Visual Studio 2010 
   * You can locate other GUIDs in the `Microsoft Visual Studio 10.0/Common7/IDE/PublicAssemblies/VSLangProj80.dll` assembly
   * I did add the VisualBasic GUID, but it did not appear to run correctly
 * You can quite easily move all the code into the package assembly, I prefer to split it up so that I can unit test the transformation provider
-* When implementing IGeneratorProvider.WriteOutput, do not use the `inputFilePath` argument to read the content, but rather use `inputFileContent`, this allows for easier unit testing
+* When implementing `IGeneratorProvider.WriteOutput`, do not use the `inputFilePath` argument to read the content, but rather use `inputFileContent`, this allows for easier unit testing
 * You might **strongly** consider following the steps at [VSIX Deployable Single File Generator Sample](http://blogs.msdn.com/b/vsx/archive/2013/11/27/building-a-vsix-deployable-single-file-generator.aspx) to make your SFG available to Express editions of Visual Studio
