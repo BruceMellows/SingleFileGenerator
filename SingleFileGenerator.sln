@@ -5,10 +5,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleFileGeneratorInterfac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleFileGenerator", "SingleFileGenerator\SingleFileGenerator.csproj", "{CF6A8DD7-CEE3-4EA0-B307-0CD8B4F66E6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySingeFileGenerator", "MySingeFileGenerator\MySingeFileGenerator.csproj", "{565CE26F-1CAD-4478-9C38-8C4F9067C3DF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProvider", "MyProvider\MyProvider.csproj", "{EF6C4C21-05E6-4E77-9791-1C2611B4A058}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,14 +19,6 @@ Global
 		{CF6A8DD7-CEE3-4EA0-B307-0CD8B4F66E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF6A8DD7-CEE3-4EA0-B307-0CD8B4F66E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF6A8DD7-CEE3-4EA0-B307-0CD8B4F66E6F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{565CE26F-1CAD-4478-9C38-8C4F9067C3DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{565CE26F-1CAD-4478-9C38-8C4F9067C3DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{565CE26F-1CAD-4478-9C38-8C4F9067C3DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{565CE26F-1CAD-4478-9C38-8C4F9067C3DF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EF6C4C21-05E6-4E77-9791-1C2611B4A058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EF6C4C21-05E6-4E77-9791-1C2611B4A058}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EF6C4C21-05E6-4E77-9791-1C2611B4A058}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EF6C4C21-05E6-4E77-9791-1C2611B4A058}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
